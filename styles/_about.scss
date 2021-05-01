@@ -1,0 +1,40 @@
+.about {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    border-top: 2px solid var(--color-border-light);
+    border-bottom: 2px solid var(--color-border-light);
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50vw;
+
+    font-size: 1.8rem;
+
+    // 500 px
+    @media only screen and (max-width: $bp-smaller) {
+      width: 80vw;
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 2.1rem;
+    }
+
+    p {
+      margin-top: 1rem;
+      font-weight: 500;
+    }
+    //font settings
+
+    span {
+      color: var(--color-1);
+    }
+  }
+}

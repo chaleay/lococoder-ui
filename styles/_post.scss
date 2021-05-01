@@ -1,0 +1,53 @@
+.post-page {
+  margin-top: 10rem;
+
+  //container properties
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    width: var(--post-content-width);
+    // display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      color: var(--color-1-dark);
+      background: rgba(145, 145, 145, 0.5);
+      box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.14),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.12),
+        0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+
+      padding: 4px 10px;
+      width: 100%;
+      font-weight: 600;
+      font-size: 4.6rem;
+
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1.75rem;
+    }
+  }
+}
+
+.post-footer {
+  width: 55vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  font-size: 2rem;
+
+  a:not(:last-child) {
+    margin-right: 10rem;
+  }
+}
