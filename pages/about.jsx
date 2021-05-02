@@ -16,7 +16,8 @@ const about = () => {
         </p>
         <p>
           Outside of that, I have a few other hobbies that keep me busy, mainly
-          powerlifting / bodybuilding, guitar, and reading.
+          powerlifting and bodybuilding (really anything that involves lifting
+          heavy stuff), guitar, and reading.
         </p>
         <p>
           Here on the blog you can expect to find my day-to-day musings on all
