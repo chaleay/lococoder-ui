@@ -1,6 +1,6 @@
 /* eslint-disable arrow-body-style */
 import React from 'react';
-import { AiOutlineTwitter } from 'react-icons/ai';
+import { AiOutlineTwitter, AiOutlineInstagram } from 'react-icons/ai';
 import { FiMail, FiLinkedin } from 'react-icons/fi';
 
 const contact = () => {
@@ -19,6 +19,11 @@ const contact = () => {
         <div className="contact__content__box">
           <a href="https://twitter.com/chaleayyy">
             <AiOutlineTwitter className="contact__icons" />
+          </a>
+        </div>
+        <div className="contact__content__box">
+          <a href="https://www.instagram.com/elijahliftsweights/">
+            <AiOutlineInstagram className="contact__icons" />
           </a>
         </div>
       </div>
