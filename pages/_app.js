@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
           href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500&display=swap"
           rel="stylesheet"
         />
-        <title>LocoCoder</title>
+        <title>elijahChristian</title>
       </Head>
       <Sidebar>
         <Component {...pageProps} />

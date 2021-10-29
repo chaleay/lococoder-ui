@@ -27,7 +27,7 @@ function Sidebar({ children }) {
           <div className="navbar__logo">
             <Link href="/">
               <a>
-                Loco<span>{`<Coder/>`}</span>
+                elijah<span>{`Christian`}</span>
               </a>
             </Link>
           </div>

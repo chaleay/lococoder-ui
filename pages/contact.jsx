@@ -22,21 +22,8 @@ const contact = () => {
           </a>
         </div>
         <div className="contact__content__box">
-          <a href="https://www.instagram.com/elijahliftsweights/">
+          <a href="https://www.instagram.com/elijahhchristian">
             <AiOutlineInstagram className="contact__icons" />
-          </a>
-        </div>
-      </div>
-      <h1>Contact Me</h1>
-      <div className="contact__contact-me-box">
-        <h3>
-          If you need to get in touch with me for whatever reason, use the email
-          below. Allow 2-3 days for a response
-        </h3>
-        <div className="contact__contact-me-box__email">
-          <a href="mailto:elijahgaytan@protomail">
-            <FiMail className="contact__icons"></FiMail>
-            <h6>elijahgaytan@protonmail.com</h6>
           </a>
         </div>
       </div>
